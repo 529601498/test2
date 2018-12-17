@@ -7,3 +7,8 @@ from django.db import models
 class Student(models.Model):
     sname=models.CharField(max_length=30,unique=True)
     spwd=models.CharField(max_length=30)
+
+
+
+class Category(models.Model):
+    cname = models.CharField(max_length=30)
