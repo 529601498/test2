@@ -12,3 +12,6 @@ class Student(models.Model):
 
 class Category(models.Model):
     cname = models.CharField(max_length=30)
+
+class Clazz(models.Model):
+    cno = models.AutoField(primary_key=True)
